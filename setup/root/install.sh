@@ -12,8 +12,8 @@ pip2 install --upgrade setuptools
 pip2 install flexget
 pip2 install transmissionrpc
 
-sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-sudo chmod a+rx /usr/local/bin/youtube-dl
+wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+chmod a+rx /usr/local/bin/youtube-dl
 
 # call aor script (arch official repo)
 # source /root/aur.sh
